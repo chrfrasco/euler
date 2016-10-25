@@ -1,3 +1,5 @@
+module Main where
+
 sumOfSquares :: [Integer] -> Integer
 sumOfSquares = sum . (map (^2))
 

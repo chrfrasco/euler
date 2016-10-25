@@ -1,3 +1,5 @@
+module P3 where
+
 primes = 2 : filter ((==1) . length . primeFactors) [3, 5..]
 
 primeFactors n = factor n primes

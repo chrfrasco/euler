@@ -1,3 +1,5 @@
+module P4 where
+
 isPalindrome :: Show a => a -> Bool
 isPalindrome s = (show s) == (reverse $ show s) 
 
